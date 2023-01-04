@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Iframe Generator</title>
+</head>
+<body>
+    <h1>Iframe Generator</h1>
+    <form action="/srcs/main.html" method="get">
+        Title: <input type="text" name="title" id="title" required><br><br>
+        Src Link: <input type="text" name="src" id="src" required><br><br>
+        Width: <input type="number" name="width" id="width"><br><br>
+        Height: <input type="number" name="height" id="height"><br><br>
+        Visibility (0 = none ; 1 = visible): <input type="number" name="v" id="visibility" required><br><br>
+        <input type="submit" value="Create Src">
+    </form>
+</body>
+</html>
